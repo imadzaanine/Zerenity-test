@@ -39,7 +39,7 @@ export default {
   methods: {
     async addMessage(userMessage) {
       const openai = new OpenAI({
-        apiKey: process.env.VUE_APP_OPENAI_API_KEY,
+        apiKey: "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",
         dangerouslyAllowBrowser: true, // Ensure this is your correct API key
       });
 
