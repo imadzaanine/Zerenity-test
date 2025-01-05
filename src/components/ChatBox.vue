@@ -39,7 +39,7 @@ export default {
   methods: {
     async addMessage(userMessage) {
       const openai = new OpenAI({
-        apiKey: "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",
+        apiKey: "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",
         dangerouslyAllowBrowser: true, // Ensure this is your correct API key
       });
 
